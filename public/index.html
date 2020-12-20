@@ -4,12 +4,42 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Imports -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="styles/main.css">
     <title>Good.Dog</title>
 </head>
 
 <body>
-    Where your your favorite pooch meets tech to give our consumers a doggone good experience!
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Our Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <h1>Good.Dog</h1>
+            <ul>
+                <li><a href="#">Log In</a></li>
+                <li><a href="#">Sign Up Free</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="mainPage" class="container page-container">
+        <section id="missionStatement">
+            <h1>Giving foodies the ultimutt robotic doggy delivery service!</h1>
+        </section>
+    </div>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/popper.js"></script>
+    <script src="scripts/bootstrap-material-design.js"></script>
+    <script>
+        $("body").bootstrapMaterialDesign();
+    </script>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>

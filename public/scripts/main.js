@@ -13,24 +13,24 @@ var rhit = rhit || {};
 rhit.variableName = "";
 
 /** function and class syntax examples */
-rhit.functionName = function () {
-	/** function body */
+rhit.functionName = function() {
+    /** function body */
 };
 
 rhit.ClassName = class {
-	constructor() {
+    constructor() {
 
-	}
+    }
 
-	methodName() {
+    methodName() {
 
-	}
+    }
 }
 
 /* Main */
 /** function and class syntax examples */
-rhit.main = function () {
-	console.log("Ready");
+rhit.main = function() {
+    console.log("Ready");
 };
 
 rhit.main();
